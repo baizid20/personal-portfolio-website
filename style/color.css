@@ -1,0 +1,40 @@
+nav {
+    text-align: center;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid coral;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    border-bottom: 2px solid coral;
+    background-color: whitesmoke;
+    padding: 5px;
+    
+}
+
+
+
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-container div {
+    flex: 1;
+}
